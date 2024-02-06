@@ -1,7 +1,9 @@
 import "./App.css";
+import Nav from "./components/Nav";
 import {
   CustomerReviews,
   Footer,
+  Hero,
   PopularProduct,
   Services,
   SpecialOffer,
@@ -12,8 +14,10 @@ import {
 function App() {
   return (
     <main className="relative">
-      Nav
-      <section className="xl:padding-1 wide:padding-r padding-b">Hero</section>
+      <Nav />
+      <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </section>
       <section className="padding">
         <PopularProduct />
       </section>
